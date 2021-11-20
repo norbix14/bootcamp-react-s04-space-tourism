@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.active {
+  border-bottom: 4px solid var(--white);
+}
+
+.item-active {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.remark-6 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+.remark-2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+button, .btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}

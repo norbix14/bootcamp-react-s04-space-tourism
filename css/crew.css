@@ -1,0 +1,28 @@
+.crew-section {
+  background-image: url(../assets/crew/background-crew-desktop.jpg);
+}
+
+.crew-description-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.crew-description-container > h2 {
+  text-transform: uppercase;
+}
+
+.crew-description-container > h2,
+.crew-description-container > p {
+  padding: 10px 0;
+}
+
+.crew-description-container > p {
+  margin: 0 auto;
+}
+
+.image-bg-crew {
+  background-image: url(../assets/crew/image-anousheh-ansari.png);
+}

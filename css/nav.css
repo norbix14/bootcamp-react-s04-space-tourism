@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+
+.navigation-links {
+  padding: 20px 30px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+ul.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items > li {
+  padding: 20px 10px;
+  margin: 0 10px;
+}
+
+.nav-items li a > span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-items li > a {
+  color: rgba(255,255,255,0.8);
+  text-transform: uppercase;
+}

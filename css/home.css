@@ -1,0 +1,59 @@
+.home-section {
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.travel-info {
+  position: fixed;
+  bottom: 0;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.travel-info .description,
+.travel-info .explore {
+  width: 50%;
+  height: 100%;
+}
+
+.description {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.description > h2,
+.description > p {
+  padding: 20px 0;
+}
+.description > p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.travel-info .explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-to {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-to > h3 {
+  font-size: 2rem;
+}

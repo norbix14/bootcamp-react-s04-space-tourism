@@ -1,0 +1,65 @@
+.destination-section {
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+}
+
+.image-bg-destination {
+  text-align: center;
+}
+
+.image-bg-dest {
+  width: 60%;
+  margin: 40px auto 0 auto;
+}
+
+.destination-description-container {
+  color: #fff;
+}
+
+.destination-description-container > h2,
+.destination-description-container > p {
+  padding: 10px 0;
+}
+
+.dest-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn-destination {
+  padding: 10px 0;
+  color: rgba(255,255,255,0.9);
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-size: 0.9rem;
+}
+
+.destination-details {
+  border-bottom: 2px solid #444;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.travesy-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.travesy-distance,
+.travesy-time {
+  margin-right: 30px;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.travesy-distance > p,
+.travesy-time > p {
+  font-size: 0.8rem;
+}
+
+.travesy-distance > h3,
+.travesy-time > h3 {
+  font-size: 2rem;
+}

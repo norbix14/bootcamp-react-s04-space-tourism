@@ -1,0 +1,67 @@
+.technology-section {
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+}
+
+.technology-description-container {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.technology-description-container h2,
+.technology-description-container p {
+  padding: 10px 0;
+}
+
+.launch-steps,
+.launch-description {
+  height: 70%;
+}
+
+.launch-steps {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.launch-step {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #eee;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.launch-step > span {
+  font-size: 2rem;
+}
+
+.launch-description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.launch-description > p:first-child {
+  text-transform: uppercase;
+}
+
+.image-bg-technology {
+  text-align: center;
+}
+
+.image-bg-tech {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
