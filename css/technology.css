@@ -1,11 +1,6 @@
-.technology-section {
-  background-image: url(../assets/technology/background-technology-desktop.jpg);
-}
-
 .technology-description-container {
   color: #fff;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -20,9 +15,7 @@
 }
 
 .launch-steps {
-  width: 30%;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -39,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
 }
 
 .launch-step > span {
@@ -62,6 +56,5 @@
 
 .image-bg-tech {
   height: 400px;
-  width: 400px;
-  object-fit: cover;
+  object-fit: contain;
 }

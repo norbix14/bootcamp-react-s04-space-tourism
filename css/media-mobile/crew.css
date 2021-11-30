@@ -1,0 +1,9 @@
+@media only screen and (max-width: 687px) {
+  .crew-section {
+    background-image: url(../../assets/crew/background-crew-mobile.jpg);
+  }
+  .crew-description-container {
+    text-align: center;
+    padding: 20px;
+  }
+}

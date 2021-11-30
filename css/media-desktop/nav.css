@@ -1,0 +1,7 @@
+@media only screen and (min-width: 992px) {
+  ul.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

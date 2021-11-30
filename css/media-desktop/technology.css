@@ -1,0 +1,14 @@
+@media only screen and (min-width: 992px) {
+  .technology-section {
+    background-image: url(../../assets/technology/background-technology-desktop.jpg);
+  }
+  .technology-description-container {
+    justify-content: space-between;
+  }
+  .launch-steps {
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

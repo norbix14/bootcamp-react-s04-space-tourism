@@ -1,0 +1,15 @@
+@media only screen and (min-width: 688px) and (max-width: 991px) {
+  .technology-section {
+    background-image: url(../../assets/technology/background-technology-tablet.jpg);
+  }
+  .technology-description-container {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .launch-steps {
+    width: 50%;
+  }
+  .launch-description {
+    text-align: center;
+  }
+}

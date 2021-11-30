@@ -1,0 +1,22 @@
+@media only screen and (min-width: 688px) and (max-width: 991px) {
+  .home-section {
+    background-image: url(../../assets/home/background-home-tablet.jpg);
+  }
+  .travel-info {
+    margin-top: 3rem;
+  }
+  .desc-main-title {
+    font-size: 4rem;
+  }
+  .description > p {
+    width: 90%;
+    text-align: center;
+  }
+  .explore-to {
+    width: 150px;
+    height: 150px;
+  }
+  .explore-to {
+    font-size: 1rem;
+  }
+}

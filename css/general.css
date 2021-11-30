@@ -1,10 +1,12 @@
+@import './keyframes.css';
+
 .container {
   height: 100vh;
   overflow: hidden;
 }
 
 .active {
-  border-bottom: 4px solid var(--white);
+  border-bottom: 4px solid var(--white) !important;
 }
 
 .item-active {
@@ -12,14 +14,37 @@
   color: #000 !important;
 }
 
+.remark-1,
+.remark-2,
+.remark-3,
+.remark-4,
+.remark-5,
 .remark-6 {
-  font-size: 6rem;
   text-transform: uppercase;
+}
+
+.remark-1 {
+  font-size: 1rem;
 }
 
 .remark-2 {
   font-size: 2rem;
-  text-transform: uppercase;
+}
+
+.remark-3 {
+  font-size: 3rem;
+}
+
+.remark-4 {
+  font-size: 4rem;
+}
+
+.remark-5 {
+  font-size: 5rem;
+}
+
+.remark-6 {
+  font-size: 6rem;
 }
 
 button, .btn {
@@ -27,4 +52,32 @@ button, .btn {
   outline: none;
   background: transparent;
   cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+.hamburger {
+	padding: 10px;
+	border-radius: 10px;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+	cursor: pointer;
+	display: none;
+	text-align: center;
+  color: #fff;
+}
+
+.hamburger > i {
+	font-size: 1.5rem;
+}
+
+.showitem {
+	animation: showitem 1s;
+}
+
+.hideitem {
+	animation: hideitem 1s;
 }

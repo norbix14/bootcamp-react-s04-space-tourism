@@ -1,0 +1,34 @@
+@media only screen and (max-width: 687px) {
+  .section-step {
+    text-align: center;
+  }
+  .step-info {
+    height: calc(100% - 80px);
+    overflow: scroll;
+  }
+  .image-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .description-container,
+  .image-container {
+    height: 100%;
+  }
+  .destination-section {
+    background-image: url(../../assets/destination/background-destination-mobile.jpg);
+  }
+  .dest-list {
+    justify-content: space-around;
+  }
+  .destination-details {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .travesy-info {
+    flex-direction: column;
+  }
+  .travesy-distance,
+  .travesy-time {
+    width: 50%;
+  }
+}

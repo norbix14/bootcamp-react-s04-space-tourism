@@ -1,0 +1,22 @@
+@media only screen and (max-width: 687px) {
+  .home-section {
+    background-image: url(../../assets/home/background-home-mobile.jpg);
+  }
+  .travel-info {
+    margin-top: 3rem;
+  }
+  .desc-main-title {
+    font-size: 4rem;
+  }
+  .description > p {
+    width: 90%;
+    text-align: center;
+  }
+  .explore-to {
+    width: 150px;
+    height: 150px;
+  }
+  .explore-to {
+    font-size: 1rem;
+  }
+}

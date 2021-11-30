@@ -1,0 +1,30 @@
+@media only screen and (min-width: 688px) and (max-width: 991px) {
+  .section-step {
+    text-align: center;
+  }
+  .step-info {
+    height: calc(100% - 80px);
+    overflow: scroll;
+  }
+  .image-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .description-container,
+  .image-container {
+    height: 100%;
+  }
+  .destination-section {
+    background-image: url(../../assets/destination/background-destination-tablet.jpg);
+  }
+  .dest-list {
+    justify-content: space-around;
+  }
+  .destination-details {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .travesy-info {
+    justify-content: space-around;
+  }
+}

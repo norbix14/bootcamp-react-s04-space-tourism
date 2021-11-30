@@ -6,10 +6,16 @@
 
 <br>
 
-![Home](screenshots/home.png "Home")
+![Home desktop](screenshots/home-desktop.png "Home desktop")
+![Home Responsive](screenshots/home-responsive.png "Home Responsive")
+![Home Responsive Menu](screenshots/home-responsive-menu.png "Home Responsive Menu")
 
-![Destination](screenshots/destination.png "Destination")
+![Destination desktop](screenshots/destination-desktop.png "Destination desktop")
+![Destination Responsive 1](screenshots/destination-responsive-1.png "Destination Responsive 1")
+![Destination Responsive 2](screenshots/destination-responsive-2.png "Destination Responsive 2")
 
-![Crew](screenshots/crew.png "Crew")
+![Crew desktop](screenshots/crew-desktop.png "Crew desktop")
+![Crew Responsive](screenshots/crew-responsive-1.png "Crew Responsive")
 
-![Technology](screenshots/technology.png "Technology")
+![Technology desktop](screenshots/technology-desktop.png "Technology desktop")
+![Technology Responsive 1](screenshots/technology-responsive-1.png "Technology Responsive 1")

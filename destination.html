@@ -3,72 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
   <div class="container">
+    <!-- NAV -->
     <nav class="nav">
       <div class="logo">
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+          <g fill="none" fill-rule="evenodd">
+            <circle cx="24" cy="24" r="24" fill="#FFF"/>
+            <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/>
+          </g>
+        </svg>
       </div>
       <div class="navigation-links">
         <ul class="nav-items">
-          <li class="">
-            <a href="/"><span>00</span> home</a>
+          <li>
+            <a href="./index.html"><span>00</span> home</a>
           </li>
-          <li class="">
-            <a href="/destination.html"><span>01</span> destination</a>
+          <li>
+            <a href="./destination.html"><span>01</span> destination</a>
           </li>
-          <li class="">
-            <a href="/crew.html"><span>02</span> crew</a>
+          <li>
+            <a href="./crew.html"><span>02</span> crew</a>
           </li>
-          <li class="">
-            <a href="/technology.html"><span>03</span> technology</a>
+          <li>
+            <a href="./technology.html"><span>03</span> technology</a>
           </li>
         </ul>
       </div>
+      <!-- HAMBURGER -->
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars" id="bars"></i>
+        <i class="fas fa-times d-none" id="close"></i>
+      </div>
     </nav>
-    <!-- dinamic section -->
+    <!-- DROPDOWN -->
+    <div class="dropdown-navigation-links d-none hideitem">
+      <ul class="nav-items">
+        <li>
+          <a href="./index.html"><span>00</span> home</a>
+        </li>
+        <li>
+          <a href="./destination.html"><span>01</span> destination</a>
+        </li>
+        <li>
+          <a href="./crew.html"><span>02</span> crew</a>
+        </li>
+        <li>
+          <a href="./technology.html"><span>03</span> technology</a>
+        </li>
+      </ul>
+    </div>
+    <!-- DESTINATION -->
     <section class="destination-section step-section">
       <div class="destination-info step-info">
         <h2 class="section-step"><span>01</span> pick your destination</h2>
         <div class="destination-data step-data">
           <div class="image-container">
-            <div class="image-bg image-bg-destination" id="destinationImage">
-              <img class="image-bg-dest" src="assets/destination/image-mars.png" alt="destination" id="imageBgDestination">
+            <div class="image-bg image-bg-destination">
+              <img class="image-bg-dest" src="./assets/destination/image-moon.png" alt="destination" id="destinationImage">
             </div>
           </div>
           <div class="description-container destination-description-container" id="descriptionContainer">
             <div class="destination-list">
-              <ul class="dest-list">
+              <ul class="dest-list" id="destinationList">
                 <li>
-                  <button class="btn btn-destination" id="btnDestinationMoon">moon</button>
+                  <button class="btn btn-destination active" id="btnDestinationMoon" data-destination="moon">moon</button>
                 </li>
                 <li>
-                  <button class="btn btn-destination" id="btnDestinationMars">mars</button>
+                  <button class="btn btn-destination" id="btnDestinationMars" data-destination="mars">mars</button>
                 </li>
                 <li>
-                  <button class="btn btn-destination" id="btnDestinationEurope">europe</button>
+                  <button class="btn btn-destination" id="btnDestinationEurope" data-destination="europe">europe</button>
                 </li>
                 <li>
-                  <button class="btn btn-destination" id="btnDestinationTitan">titan</button>
+                  <button class="btn btn-destination" id="btnDestinationTitan" data-destination="titan">titan</button>
                 </li>
               </ul>
             </div>
             <div class="destination-details">
-              <h2 class="remark-6" id="destinationName">mars</h2>
-              <p id="destinationBio">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+              <h2 class="remark-6" id="destinationName">moon</h2>
+              <p id="destinationBio">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
             </div>
             <div class="travesy-info">
               <div class="travesy-distance">
                 <p>avg. distance</p>
-                <h3 id="travesyDistance">225 mill. km</h3>
+                <h3 id="destinationTravesyDistance">384,400 km</h3>
               </div>
               <div class="travesy-time">
                 <p>est. travel time</p>
-                <h3 id="travesyTime">9 months</h3>
+                <h3 id="destinationTravesyTime">3 days</h3>
               </div>
             </div>
           </div>
@@ -76,6 +104,7 @@
       </div>
     </section>
   </div>
-  <script src="js/main.js"></script>
+  <!-- SCRIPTS -->
+  <script src="./js/main.js"></script>
 </body>
 </html>

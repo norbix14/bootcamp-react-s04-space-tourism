@@ -1,0 +1,15 @@
+@media only screen and (max-width: 687px) {
+  .technology-section {
+    background-image: url(../../assets/technology/background-technology-mobile.jpg);
+  }
+  .technology-description-container {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .launch-steps {
+    width: 80%;
+  }
+  .launch-description {
+    text-align: center;
+  }
+}
